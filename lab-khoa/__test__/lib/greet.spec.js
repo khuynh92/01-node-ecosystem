@@ -1,6 +1,6 @@
 'use strict';
 
-const greet = require('../lib/greet');
+const greet = require('../../lib/greet');
 
 describe('greet module', () => {
   it('should return null when passed non string', () => {

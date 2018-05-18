@@ -1,6 +1,6 @@
 'use strict';
 
-const arithmetic = require('../lib/arithmetic');
+const arithmetic = require('../../lib/arithmetic');
 
 describe('arithmetic module', () => {
   it('add() should return null when passed a non-number', () => {
